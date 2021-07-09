@@ -75,7 +75,7 @@ nav {
 .orange-container {
   background-color: #ff3a00;
   padding: 0px 150px;
-  height: 134px;
+  height: 160px;
 }
 .orange-container__img {
   position: relative;
@@ -83,7 +83,7 @@ nav {
   bottom: 50%;
 }
 .orange-container__txt-row {
-  margin: 20px auto;
+  margin: 25px auto;
 }
 .orange-container__btn {
   background-color: #fff;
