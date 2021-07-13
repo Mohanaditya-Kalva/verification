@@ -16,40 +16,83 @@
 
 <body>
     
-    <section class="nav-banner-section">
-        <!-- navigation section -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="assests/img/logo.png" class="navbar__logo" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active c-w" aria-current="page" href="#">All Credentials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link c-w" href="#">Be Trusted</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link c-w" href="#">We Are For Everyone</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link c-w" href="#">Verification</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <a href="#"><button class="nav__btn c-w">What is True Certificates?</button></a>
-                    </form>
-              </div>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assests/img/logo.png" class="navbar__logo" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link c-b" href="#">All Credentials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link c-b" href="#">Be Trusted</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link c-b" href="#">We Are For Everyone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active c-b" aria-current="page" href="#">Verification</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="#"><button class="nav__btn c-w">About Us</button></a>
+                </form>
             </div>
-        </nav>
-        <!-- banner section -->
-        <div class="row banner">
-            <div class="col-md-2"></div>
+        </div>
+    </nav>
+    
+    <!-- banner section -->
+    <section class="banner">
+        <div class="row banner__row">
+            <div class="col-md-12 banner__header-img-col">
+                <div class="d-flex flex-row bd-highlight mb-3">
+                    <div class="p-2 bd-highlight">
+                        <img src="assests/img/heading-logo.png" class="banner__heading-logo" alt="banner-logo">
+                    </div>
+                    <div class="p-2 bd-highlight">
+                        <h1>This credential<br>is verified !</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>
+                                <span class="banner__sm-title">Issued to</span><br>
+                                <span class="banner__lg-title">Jatin Singhania</span><br>
+                            </li>
+                            <li>
+                                <span class="banner__sm-title">Date</span><br>
+                                <span class="banner__lg-title">13th July 2021</span><br>
+                            </li>
+                            <li>
+                                <span class="banner__sm-title">Date of Expiry</span><br>
+                                <span class="banner__lg-title">31st March 2025</span><br>
+                            </li>
+                            <li>
+                                <span class="banner__sm-title">Issuer</span><br>
+                                <span class="banner__lg-title">The Sparks Foundation</span><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 banner__award-col">
+                        <img src="assests/img/award.png" alt="award" class="banner__award-img"><br><br>
+                        <span>Share Now</span>&nbsp;&nbsp;
+                        <a href="#" target="_blank"><img src="assests/img/linkedin.png" class="banner__social-icons" alt="linkedin"></a>
+                        <a href="#" target="_blank"><img src="assests/img/twitter.png" class="banner__social-icons" alt="twitter"></a>
+                        <a href="#" target="_blank"><img src="assests/img/fb.png" class="banner__social-icons" alt="facebook"></a>
+                        <a href="#" target="_blank"><img src="assests/img/link.png" class="banner__social-icons" alt="website"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-2"></div>
             <div class="col-md-5 banner__txt">
                 <ul>
                     <li>
@@ -72,26 +115,20 @@
             </div>
             <div class="col-md-5 banner__img">
                 <img src="assests/img/award.png" alt="award" class="banner__award-img">
-            </div>
+            </div> -->
         </div>
     </section>
     
-    <section class="orange-container">
+    <section class="yellow-container">
         <div class="row">
-            <div class="col-6 col-md-4">
-                <img src="assests/img/man.png" alt="man" class="orange-container__img">
+            <div class="col-md-4 col-lg-3 yellow-container__img-col">
+                <img src="assests/img/man.png" alt="Man" class="yellow-container__img">
             </div>
-            <div class="col-6 col-md-8">
-                <div class="row orange-container__txt-row">
-                    <div class="col-12">
-                        <p class="c-w">Do you also want to issue, manage, verify, own and share all your credentials online?
-                            <br>Safety     Security     Surety
-                        </p>
-                    </div>
-                    <div class="col-12">
-                        <a href="#" class="orange-container__btn">Learn more</a>
-                    </div>
-                </div>
+            <div class="col-md-8 col-lg-6 yellow-container__h1-col">
+                <h1 class="c-b">Do you also want to manage your credentials online?</h1>
+            </div>
+            <div class="col-md-12 col-lg-3 yellow-container__btn-col">
+                <a href="#" class="yellow-container__btn">Learn More</a>
             </div>
         </div>
     </section>
@@ -141,14 +178,26 @@
 
     <footer class="footer">
         <div class="row">
-            <div class="col-md-6 footer__logo-col">
+            <div class="col-md-2 footer__logo-col">
                 <img src="assests/img/logo-blue.png" alt="footer-img" class="footer__logo">
             </div>
-            <div class="col-md-6 footer__txt-col">
-                <p class="c-b footer__txt">
-                    <a href="#">About True Certificates</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#">Connect</a>
-                </p>
+            <div class="col-md-10 footer__txt-col">
+                <p class="c-b">Copyright © 2021 True Certificates Limited.</p>
+                <p class="c-b">True Certificates Limited is a company incorporated under the laws of United Kingdom 
+                    at Registrar of Companies for England and Wales, with registration number 12629288. 
+                    The vision of True Certificates is to see a world of all digital and pre-verified 
+                    credentials. A world of connected academia, industry and skilled personnel with 
+                    tech-enabled guidance to enrich appropriate skills. Our mission statement is 
+                    to manage all credentials and provide secure & prompt access of verified credentials 
+                    to industry and academia, improve job readiness, and skills to become largest and 
+                    fastest pre-verified credential provider in the world.
+                </p><br>
+                <a href="#" class="footer__btn c-b">About True Certificates</a>
+                <br class="d-md-none"><br class="d-md-none">
+                <a href="#" class="footer__btn c-b">Connect</a>
+                <br class="d-md-none"><br class="d-md-none">
+                <a href="#" class="footer__btn c-b">Privacy Policy</a>
+                <br class="d-md-none"><br class="d-md-none">
             </div>
         </div>
     </footer>
