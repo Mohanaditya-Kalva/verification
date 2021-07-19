@@ -213,9 +213,9 @@ nav {
   .banner__award-img {
     height: 65%;
   }
-  /* .bd-highlight h1{
-    margin-top: 5px;
-  } */
+  .bd-highlight h1{
+    margin-top: 15px auto;
+  }
 
   /* yello cotainer section */
   .yellow-container {
@@ -304,6 +304,9 @@ nav {
   }
   .banner__award-img {
     height: 65%;
+  }
+  .bd-highlight h1{
+    margin-top: 15px auto;
   }
 
   /* yello cotainer section */
