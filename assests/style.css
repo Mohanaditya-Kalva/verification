@@ -82,7 +82,7 @@ nav {
   text-decoration: underline;
 }
 .banner__social-icons {
-  height: 25px;
+  height: 30px;
   padding: 0px 10px;
 }
 .banner__award-col {
@@ -213,6 +213,9 @@ nav {
   .banner__award-img {
     height: 65%;
   }
+  /* .bd-highlight h1{
+    margin-top: 5px;
+  } */
 
   /* yello cotainer section */
   .yellow-container {
