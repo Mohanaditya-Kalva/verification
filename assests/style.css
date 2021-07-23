@@ -48,12 +48,17 @@ nav {
 .banner__row {
   padding: 75px 120px;
 }
+.banner__main-row {
+  margin-bottom: 50px;
+}
 .banner__heading-logo {
-  height: 70%;
+  /* height: 70%; */
 }
 .bd-highlight h1 {
   color: #38cc00;
   font-weight: 600;
+  font-size: 3rem;
+  padding: 15px 15px;
 }
 .banner ul {
   list-style: none;
@@ -82,14 +87,25 @@ nav {
   text-decoration: underline;
 }
 .banner__social-icons {
-  height: 25px;
-  padding: 0px 10px;
+  height: 30px;
+  padding: 0px 11px;
 }
 .banner__award-col {
   padding: 0px 75px;
 }
 .banner__award-img {
   height: 350px;
+}
+.tooltip-arrow,
+.red-tooltip + .tooltip > .tooltip-inner {
+  /* background-color: yellow;
+  color: yellow; */
+  margin-top: 15px;
+}
+.tooltip > .tooltip-inner {
+  background: #CCDAFF;
+  color: #667DB9;
+  margin-top: 20px;
 }
 
 /* yello cotainer section */
@@ -99,13 +115,14 @@ nav {
   /* height: 160px; */
 }
 .yellow-container h1 {
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
   font-weight: 600;
 }
 .yellow-container__img {
-  height: 225px;
+  height: 340px;
   position: absolute;
-  top: 720px;
+  top: 751px;
+  left: 25px;
 }
 .yellow-container__h1-col {
   padding: 0px 50px;
@@ -172,16 +189,27 @@ nav {
   padding-right: 15px;
   height: 30px;
 }
+.hand-badge-container__listing p {
+  margin-top: 3px;
+}
 
 /* footer section */
+hr:not([size]) {
+  height: 3px;
+  background: #f43600;
+  opacity: 1;
+}
 .footer {
-  margin: 75px 50px 50px 50px;
+  margin: 5px 50px;
 }
 .footer__btn {
   background-color: #ccdaff;
   padding: 10px 25px;
   border-radius: 15px;
   margin: 0px 15px;
+}
+.footer__txt-col p {
+  line-height: 30px;
 }
 .footer__quick-links p {
   background-color: #ccdaff;
@@ -201,6 +229,16 @@ nav {
   }
 
   /* banner section */
+  .bd-highlight h1 {
+    font-size: 28px;
+    margin: 0;
+  }
+  .banner__social-icons {
+    padding: 0px 5px;
+  }
+  .banner__main-row {
+    margin-bottom: 25px;
+  }
   .banner__row {
     padding: 25px 25px;
   }
@@ -212,9 +250,6 @@ nav {
   }
   .banner__award-img {
     height: 65%;
-  }
-  .bd-highlight h1{
-    margin: 15px auto;
   }
 
   /* yello cotainer section */
@@ -269,7 +304,7 @@ nav {
   /* footer section */
   /* footer section */
   .footer {
-    margin: 75px 35px 0px 35px;
+    margin: 5px 35px 5px 35px;
   }
   .footer__btn {
     margin: 0px;
@@ -293,6 +328,16 @@ nav {
   }
 
   /* banner section */
+  .bd-highlight h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  .banner__social-icons {
+    padding: 0px 5px;
+  }
+  .banner__main-row {
+    margin-bottom: 25px;
+  }
   .banner__row {
     padding: 25px 50px;
   }
@@ -305,7 +350,7 @@ nav {
   .banner__award-img {
     height: 65%;
   }
-  .bd-highlight h1{
+  .bd-highlight h1 {
     margin: 15px auto;
   }
 
@@ -360,7 +405,7 @@ nav {
 
   /* footer section */
   .footer {
-    margin: 75px 35px 0px 35px;
+    margin: 5px 35px 5px 35px;
   }
   .footer__btn {
     margin: 0px;
@@ -380,6 +425,20 @@ nav {
     padding-bottom: 75px;
   }
   /* banner section */
+  .banner__main-row {
+    margin-bottom: 0px;
+  }
+  .banner__heading-logo {
+    height: 70%;
+  }
+  .bd-highlight h1 {
+    font-size: 2.5rem !important;
+    padding: 0;
+  }
+  .banner__social-icons {
+    padding: 0px 10px;
+    height: 25px;
+  }
   .banner__row {
     padding: 75px 75px;
   }
@@ -392,6 +451,9 @@ nav {
   /* .yellow container section */
   .yellow-container {
     padding: 25px 25px;
+  }
+  .yellow-container h1 {
+    font-size: 2rem !important;
   }
   .yellow-container__img {
     height: 225px;
@@ -441,10 +503,35 @@ nav {
   .banner__award-col {
     padding: 0px;
   }
+  .banner__heading-logo {
+    height: 70%;
+  }
+  .bd-highlight h1 {
+    font-size: 2.5rem !important;
+  }
+  .banner__social-icons {
+    padding: 0px 10px;
+    height: 25px;
+  }
 
   /* .orange container section */
-  .orange-container {
-    height: 160px;
+  .yellow-container {
+    padding: 25px 25px;
+  }
+  .yellow-container h1 {
+    font-size: 2rem !important;
+  }
+  .yellow-container__img {
+    height: 225px;
+    position: absolute;
+    top: 775px;
+  }
+  .yellow-container__btn-col {
+    margin: 25px 0px;
+    text-align: center;
+  }
+  .yellow-container__btn {
+    float: none;
   }
 
   /* hand badge section */
